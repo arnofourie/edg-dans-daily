@@ -2,3 +2,6 @@
 *.iml
 **/node_modules
 .idea
+/ui.frontend/dist/
+/ui.frontend/node/
+/ui.frontend/package-lock.json
