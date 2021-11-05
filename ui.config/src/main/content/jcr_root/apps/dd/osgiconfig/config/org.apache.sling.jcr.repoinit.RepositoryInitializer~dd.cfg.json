@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/dd",
+        "create path (nt:unstructured) /content/dam/dd/jcr:content",
+        "set properties on /content/dam/dd/jcr:content",
+        "set cq:conf{String} to /conf/dd",
+        "set jcr:title{String} to \"Dans Daily\"",
+        "end"
+    ]
+}
